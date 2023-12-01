@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# bin/compile <build-dir> <cache-dir> <env-dir>
+
+sudo apt-get install automake libtool git ffmpeg
+git clone https://github.com/devowlio/node-fdkaac.git
+cd node-fdkaac
+ls
+chmod +x install.sh
+./install.sh
