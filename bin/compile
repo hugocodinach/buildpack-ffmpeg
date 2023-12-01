@@ -57,4 +57,3 @@ autoreconf -i
 ./configure
 make
 make install
-ldconfig
